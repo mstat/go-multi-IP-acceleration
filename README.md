@@ -21,3 +21,5 @@ TODO：
 - http代理
 - 自动翻墙
 - 自动检测IP冲突
+
+特别感谢：https://github.com/armon/go-socks5
