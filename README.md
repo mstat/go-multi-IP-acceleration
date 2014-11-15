@@ -3,10 +3,10 @@ go-multi-IP-acceleration
 ####go-multi-IP-acceleration是用golang实现的一个socks5代理，它可以把流量随机从多个本地IP发出，在某些网络环境下可以达到加速网络的效果
 
 使用说明：
-下载golang开发环境，然后编译对应平台的二进文件
-用nmap等工具扫描出一个空余IP列表
-然后在本地机器加上多个IP,(windows在设置IP的对话框选择高级，然后加上多个IP)，linux自己搜索相关资料。
-然后把goproxy.ini放到和二进制文件一个目录，并修改配置文件
+- 下载golang开发环境，然后编译对应平台的二进文件,也可以直接从release中下载。
+- 用nmap等工具扫描出一个空余IP列表
+- 然后在本地机器加上多个IP,(windows在设置IP的对话框选择高级，然后加上多个IP)，linux自己搜索相关资料。
+- 然后把goproxy.ini放到和二进制文件一个目录，并修改配置文件
 配置文件：
 - port 为http代理功能保留，暂空
 - port_socks5 代表监听端口
