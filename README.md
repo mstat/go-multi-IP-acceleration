@@ -1,7 +1,7 @@
 go-multi-IP-acceleration
 ========================
+#####目前我正在寻找暑假实习，欢迎访问 [r.hi-hi.cn](http://r.hi-hi.cn) 查看我的简历
 ####go-multi-IP-acceleration是用golang实现的一个socks5代理，它可以把流量随机从多个本地IP发出，在某些网络环境下可以达到加速网络的效果
-
 ###原理简介：
 先看下宽带用户中流行的[双拨/多拨](http://member.mcplive.cn/space.php?uid=1799&do=thread&id=30167)
 > 什么是双拨/多拨呢？就是两台甚至多台设备同时用同一个账号，在同一条线路上拨号，如果能够同时拨通，就称为双拨/多拨。
